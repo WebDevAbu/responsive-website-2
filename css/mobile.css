@@ -1,0 +1,82 @@
+/* For Responsive */
+@media only screen and (max-width: 1030px) {
+  .main-box {
+    flex-direction: column-reverse;
+  }
+  .first-half {
+    padding: 25px;
+    width: 90%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: sticky;
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-out;
+  }
+  #nav-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-li {
+    text-align: center;
+    flex-direction: column;
+  }
+  .left-nav {
+    width: 100%;
+    flex-direction: column;
+  }
+  .right-nav {
+    width: 100%;
+  }
+  .h-burger {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+  .line {
+    width: 33px;
+    background-color: white;
+    margin: 5px;
+    height: 3px;
+    color: white;
+  }
+  /* home */
+  .main-box {
+    height: 100%;
+  }
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .home {
+    height: 70vh;
+  }
+  /* Middle area */
+  .first {
+    width: 90%;
+    padding: 5px;
+  }
+  /* contact */
+  .contact-outer input,
+  textarea {
+    width: 85%;
+  }
+  /* utility class */
+  .v-class {
+    opacity: 0;
+  }
+  .h-nav {
+    height: 46px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home {
+    height: 90vh;
+  }
+}

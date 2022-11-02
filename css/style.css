@@ -1,0 +1,171 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  padding: 0px 22px;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  /* height: 500px; */
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../image/bg1.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.profile {
+  height: 43px;
+  border-radius: 50px;
+  width: 43px;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.nav-li {
+  list-style: none;
+  padding: 23px 29px;
+}
+
+#nav-ul {
+  display: flex;
+}
+#nav-ul li a {
+  text-decoration: none;
+  color: white;
+}
+#nav-ul li a:hover {
+  color: brown;
+}
+
+.right-nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search {
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 11px;
+}
+
+/* Home Section */
+.home {
+  height: 100vh;
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+.first-half {
+  width: 45%;
+}
+.button {
+  margin-top: 10px;
+}
+.second-half img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+/* Middle area */
+.first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-div img {
+  border-radius: 25px;
+}
+.fr-reverse {
+  flex-direction: row-reverse;
+}
+.first {
+  width: 54%;
+  padding: 35px;
+}
+
+/* Contact class */
+.contact-outer {
+  height: 490px;
+  background: rgb(235, 235, 235);
+}
+.contact-outer p {
+  padding: 20px;
+}
+.contact-outer input,
+textarea {
+  width: 50%;
+  padding: 8px;
+  margin: 8px;
+}
+
+.contact-outer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+/* Utility Class */
+.text-x {
+  font-size: 1.8rem;
+}
+.text-sm {
+  font-size: 1rem;
+}
+.text-white {
+  color: white;
+}
+.btn {
+  padding: 4px 18px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 2px solid rgb(182, 180, 178);
+}
+.btn-sm {
+  padding: 3px 6px;
+  font-size: 13px;
+}
+.h-md {
+  height: 200px;
+  width: 200px;
+}
+.text-center {
+  text-align: center;
+}
+.btn-dark {
+  color: black;
+  border: 2px solid gray;
+}
+
+@media only screen and (max-width: 1030px) {
+}
